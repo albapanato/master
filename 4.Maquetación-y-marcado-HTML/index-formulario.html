@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <form action="back/usuario/nuevoUsuario" method="post">
+    <h2>Mi formulario</h2>
+    <div>
+      <label for="IDNombre">Dime tu nombre:</label>
+      <input
+        name="nombre"
+        type="text"
+        id="IDNombre"
+        placeholder="Pon tu nombre"
+      />
+    </div>
+    <div>
+      Contraseña:
+      <input name="pwd" type="password" disabled />
+    </div>
+    <div>
+      Tu color favorito:
+      <select name="color" id="">
+        <option value="verde">Verde</option>
+        <option value="azul">Azul</option>
+        <option value="amarillo">Amarillo</option>
+      </select>
+    </div>
+    <div>
+      <label for="tyc"> Has leido los terminos y condiciones</label>
+      <input type="checkbox" name="TyC" id="tyc" />
+    </div>
+
+    Como nos has conocido?
+
+    <div>
+      <input type="radio" name="gente" id="radio1" />
+      <label for="radio1"> gente</label>
+    </div>
+    <div>
+      <input type="radio" name="television" id="radio2" />
+      <label for="radio2"> television</label>
+    </div>
+    <div>
+      <input type="radio" name="univerdidad" id="radio3" />
+      <label for="radio3"> universidad </label>
+    </div>
+
+    <div>
+      <label for="textarea">Danos tu opinion:</label><br />
+      <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+    </div>
+
+    <br />
+    <br />
+    <button type="submit">Enviar</button>
+  </form>
+</html>
